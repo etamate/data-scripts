@@ -1,6 +1,6 @@
-**_Code samples of netCDF file handling_** - I've collected some useful code that I use often when working with netCDF climate data aggregations.
+**_Code samples of data processing and analyzes_** - I've collected here some of my scripts that I use when working with data.
 
-### converting SEDAC GPW v3 files to netCDF format
+### Converting SEDAC GPW v3 files to netCDF format
 Whenever you want to create a country level aggregation of some climate indexes, you will need a gridded country map to decide which country a given cell belongs to.
 Besides, you often want to weight your calculated index with the corresponding population.
 
@@ -10,3 +10,7 @@ In the [population/sedac_gpwv3](population/sedac_gpwv3) folder I use some python
 
 [Read more here about the example](population/sedac_gpwv3/README.md)
 
+### License
+![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
